@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Błąd 404 - Nie znaleziono przepisu</title>
+</head>
+<body>
+<h1>Błąd 404</h1>
+<p th:text="${message}"></p>
+<a th:href="@{/recipe/showList}">Powrót do listy przepisów</a>
+</body>
+</html>
